@@ -10,7 +10,7 @@ const App = () => {
     <React.Fragment>
       <Router exact path="/" component={Ball} />
       <Router exact path="/board" component={Board} />
-      <Router exact path="/sound" component={Sound} />
+      <Router path="/sound" component={Sound} />
     </React.Fragment>
 
   )

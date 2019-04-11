@@ -1,7 +1,9 @@
 import React from 'react'
 import Sound from 'react-sound'
 
-const Sound = () => {
+<button onClick="playSound()">Sound tester</button>
+
+const playSound = () => {
   return (
     
   )
