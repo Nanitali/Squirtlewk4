@@ -34,7 +34,7 @@ MVP
                 \          \      |          |
                ,'           )     `.         |
                 7____,,..--'      /          |
-                                  `---.__,--.'
+                                  `---.__,--.'mh
 
 
 Home page - Spinning Ball component <Link to>
