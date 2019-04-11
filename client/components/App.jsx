@@ -1,4 +1,6 @@
 import React from 'react'
+import { Router } from 'react-router-dom'
+
 
 import Board from './Board'
 import data from '../data'
@@ -11,7 +13,13 @@ class App extends React.Component {
     super(props)
     this.state = {}
   }
+  return (
+    <React.Fragment>
+      <Router exact path="/" component={Ball} />
+      <Router exact path="/board" component={Board} />
+    </React.Fragment>
 
+  )
   render () {
     const hasWon = this.state.matchCount === (data.length / 2)
     return (
@@ -29,7 +37,5 @@ class App extends React.Component {
         </div>
       </div>
     )
-  }
-}
 
 export default App
