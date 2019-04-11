@@ -1,28 +1,130 @@
-# A starter webpack project for React
+Team Squirtle
+-------------
+MVP
+-------------
+               _,........__
+            ,-'            "`-.
+          ,'                   `-.
+        ,'                        \
+      ,'                           .
+      .'\               ,"".       `
+     ._.'|             / |  `       \
+     |   |            `-.'  ||       `.
+     |   |            '-._,'||       | \
+     .`.,'             `..,'.'       , |`-.
+     l                       .'`.  _/  |   `.
+     `-.._'-   ,          _ _'   -" \  .     `
+`."""""'-.`-...,---------','         `. `....__.
+.'        `"-..___      __,'\          \  \     \
+\_ .          |   `""""'    `.           . \     \
+  `.          |              `.          |  .     L
+    `.        |`--...________.'.        j   |     |
+      `._    .'      |          `.     .|   ,     |
+         `--,\       .            `7""' |  ,      |
+            ` `      `            /     |  |      |    _,-'"""`-.
+             \ `.     .          /      |  '      |  ,'          `.
+              \  v.__  .        '       .   \    /| /              \
+               \/    `""\"""""""`.       \   \  /.''                |
+                `        .        `._ ___,j.  `/ .-       ,---.     |
+                ,`-.      \         ."     `.  |/        j     `    |
+               /    `.     \       /         \ /         |     /    j
+              |       `-.   7-.._ .          |"          '         /
+              |          `./_    `|          |            .     _,'
+              `.           / `----|          |-............`---'
+                \          \      |          |
+               ,'           )     `.         |
+                7____,,..--'      /          |
+                                  `---.__,--.'
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
 
-* Fork this repo
-* Rename your repo according to the app you're building
+Home page - Spinning Ball component <Link to>
+Grid (App) 
+Grid is full of 12 card component
+Sound component - Pika pika Amy
 
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && npm i
-```
+---------------------------------------------
+Stretch
+--------
+     __                                _.--'"7
+    `. `--._                        ,-'_,-  ,'
+     ,'  `-.`-.                   /' .'    ,|
+     `.     `. `-     __...___   /  /     - j
+       `.     `  `.-""        " .  /       /
+         \     /                ` /       /
+          \   /                         ,'
+          '._'_               ,-'       |
+             | \            ,|  |   ...-'
+             || `         ,|_|  |   | `             _..__
+            /|| |          | |  |   |  \  _,_    .-"     `-.
+           | '.-'          |_|_,' __!  | /|  |  /           \
+   ,-...___ .=                  ._..'  /`.| ,`,.      _,.._ |
+  |   |,.. \     '  `'        ____,  ,' `--','  |    /      |
+ ,`-..'  _)  .`-..___,---'_...._/  .'      '-...'   |      /
+'.__' ""'      `.,------'"'      ,/            ,     `.._.' `.
+  `.             | `--........,-'.            .         \     \
+    `-.          .   '.,--""     |           ,'\        |      .
+       `.       /     |          L          ,\  .       |  .,---.
+         `._   '      |           \        /  .  L      | /   __ `.
+            `-.       |            `._   ,    l   .    j |   '  `. .
+              |       |               `"' |  .    |   /  '      .' |
+              |       |                   j  |    |  /  , `.__,'   |
+              `.      L                 _.   `    j ,'-'           |
+               |`"---..\._______,...,--' |   |   /|'      /        j
+               '       |                 |   .  / |      '        /
+                .      .              ____L   \'  j    -',       /
+               / `.     .          _,"     \   | /  ,-','      ,'
+              /    `.  ,'`-._     /         \  i'.,'_,'      .'
+             .       `.      `-..'             |_,-'      _.'
+             |         `._      |            ''/      _,-'
+             |            '-..._\             `__,.--'
+            ,'           ,' `-.._`.            .
+           `.    __      |       "'`.          |
+             `-"'  `""""'            7         `.
+                                    `---'--.,'"`' 
+Add players name
+Countdown
+Randomise cards => cant win
+------------------------------
+Super stretch
+--------------
 
-To start the development server with a watcher that rebuilds your code, run `npm run dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
-
-Additional components should be placed in `client/components`.
-
-## Separate client/server
-
-The boilerplate is also set up to host the client using `webpack-dev-server` with hot module reloading etc. To use this method, in one terminal run:
-```sh
-npm run client
-```
-and in the other:
-```sh
-npm run server
-```
-The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
+                       _
+            _,..-"""--' `,.-".
+          ,'      __.. --',  |
+        _/   _.-"' |    .' | |       ____
+  ,.-""'    `-"+.._|     `.' | `-..,',--.`.
+ |   ,.                      '    j 7    l \__
+ |.-'                            /| |    j||  .
+ `.                   |         / L`.`""','|\  \
+   `.,----..._       ,'`"'-.  ,'   \ `""'  | |  l
+     Y        `-----'       v'    ,'`,.__..' |   .
+      `.                   /     /   /     `.|   |
+        `.                /     l   j       ,^.  |L
+          `._            L       +. |._   .' \|  | \
+            .`--...__,..-'""'-._  l L  """    |  |  \
+          .'  ,`-......L_       \  \ \     _.'  ,'.  l
+       ,-"`. / ,-.---.'  `.      \  L..--"'  _.-^.|   l
+ .-"".'"`.  Y  `._'   '    `.     | | _,.--'"     |   |
+  `._'   |  |,-'|      l     `.   | |"..          |   l
+  ,'.    |  |`._'      |      `.  | |_,...---"""""`    L
+ /   |   j _|-' `.     L       | j ,|              |   |
+`--,"._,-+' /`---^..../._____,.L',' `.             |\  |
+   |,'      L                   |     `-.          | \j
+            .                    \       `,        |  |
+             \                __`.Y._      -.     j   |
+              \           _.,'       `._     \    |  j
+              ,-"`-----""""'           |`.    \  7   |
+             /  `.        '            |  \    \ /   |
+            |     `      /             |   \    Y    |
+            |      \    .             ,'    |   L_.-')
+             L      `.  |            /      ]     _.-^._
+              \   ,'  `-7         ,-'      / |  ,'      `-._
+             _,`._       `.   _,-'        ,',^.-            `.
+          ,-'     v....  _.`"',          _:'--....._______,.-'
+        ._______./     /',,-'"'`'--.  ,-'  `.
+                 """""`.,'         _\`----...' mh
+                        --------""'
+                        
+Pobaby for card
+------------------------------------------------------------------------------------------------------------------------------------------
 
