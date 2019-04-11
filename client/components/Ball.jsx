@@ -4,9 +4,9 @@ const Ball = () => {
   return (
     <React.Fragment>
       <h1>Click to enter!</h1>
-      <img src="images/pokeball.png" className='ballSpin' ></img>
-
+      <img src="images/pokeball.png" className='ballSpin' onClick={<Link to='/board'/>}> </img>
     </React.Fragment>
+
   )
 }
 
