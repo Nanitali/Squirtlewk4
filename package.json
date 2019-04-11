@@ -32,6 +32,7 @@
     "ascii-art": "^1.5.1",
     "express": "^4.16.4",
     "react-router-dom": "^5.0.0",
+    "react-sound": "^1.2.0",
     "superagent": "^5.0.2"
   },
   "devDependencies": {
