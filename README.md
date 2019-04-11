@@ -2,6 +2,7 @@ Team Squirtle
 -------------
 MVP
 -------------
+<h4>
                _,........__
             ,-'            "`-.
           ,'                   `-.
@@ -35,6 +36,7 @@ MVP
                ,'           )     `.         |
                 7____,,..--'      /          |
                                   `---.__,--.'mh
+  </h4>
 
 
 Home page - Spinning Ball component <Link to>
