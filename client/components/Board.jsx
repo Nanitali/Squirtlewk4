@@ -4,6 +4,7 @@ import Card from './Card'
 
 class Board extends React.Component {
   render () {
+    console.log(this.props)
     return <div className='cards'>
       {this.props.cards.map(card => {
         return <Card
