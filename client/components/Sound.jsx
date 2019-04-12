@@ -1,10 +1,12 @@
 import React from 'react'
-import Sound from 'react-sound'
+// import sound from 'react-sound'
 
-const Sound = () => {
-  return (
-    
-  )
+class Sound extends React.Component {
+  render () {
+    return (
+      <button type="button">where the f is my button</button>
+    )
+  }
 }
 
 export default Sound
