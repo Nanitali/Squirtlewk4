@@ -22,7 +22,7 @@ class App extends React.Component {
         <Board cards={data} foundMatch={this.foundMatch} />
 
         <h5>{hasWon && winMessage}</h5>
-        <h5>{!this.state.isMatch && tryAgain}</h5>
+        <h1>{!this.state.isMatch && tryAgain}</h1>
 
         <div className='replaybutton'>
           {hasWon && <button onClick={this.reset}>Play Again</button>}
