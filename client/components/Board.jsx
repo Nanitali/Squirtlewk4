@@ -3,6 +3,7 @@ import React from 'react'
 import Card from './Card'
 
 class Board extends React.Component {
+
   constructor (props) {
     super(props)
     this.state = {
@@ -10,6 +11,8 @@ class Board extends React.Component {
       card2: null
     }
     this.clicker = this.clicker.bind(this)
+
+
   }
 
 clicker = (id) => {

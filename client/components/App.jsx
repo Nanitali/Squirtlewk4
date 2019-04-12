@@ -23,6 +23,7 @@ class App extends React.Component {
         <h2>Match all the Pokemon to win - GOTTA MATCH EM ALL!</h2>
 
         <Route exact path="/" component={Ball} />
+        
         <Route exact path="/board" render={() =>
           <Board cards={data} foundMatch={this.foundMatch} />
         } />
@@ -33,7 +34,7 @@ class App extends React.Component {
         <div className='replaybutton'>
           {hasWon && <button onClick={this.reset}>Play Again</button>}
         </div>
-      </div>
+      </div>  
     )
   }
 }
