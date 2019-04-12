@@ -1,10 +1,12 @@
 import React from 'react'
+
 import { Link } from 'react-router-dom'
 import Sound from './Sound'
 
 class Ball extends React.Component {
   onClick = () => {
     this.props.history.push('/board.')
+
   }
   render () {
     return (
