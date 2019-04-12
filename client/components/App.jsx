@@ -20,7 +20,7 @@ class App extends React.Component {
 
       <div className='game'>
         <h1>Welcome to the Memomon</h1>
-        <h2>Match all the Pokemon to win - GOTTA CATCH EM ALL!</h2>
+        <h2>Match all the Pokemon to win - GOTTA MATCH EM ALL!</h2>
 
         <Route exact path="/" component={Ball} />
         <Route exact path="/board" render={() =>

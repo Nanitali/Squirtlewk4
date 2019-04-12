@@ -6,13 +6,29 @@ class Board extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      cards: this.props.cards
+      card1: null,
+      card2: null
     }
+    this.clicker = this.clicker.bind(this)
   }
 
 clicker = (id) => {
-  //  this.props.cards.id({
+  const { card1 } = this.state
+  const card = this.props.cards.find(idx => idx.id === id)
+  card.isVisible = true
+  if (card1 === null) {
+    this.setState({
+      card1: card
+    })
+  }
 }
+
+
+
+
+
+
+
 
 render () {
   return (
@@ -26,7 +42,7 @@ render () {
             info={card.info}
             value={card.value}
             isVisible={card.isVisible}
-            clicker={this.clicker(card.id)}
+            clicker={this.clicker.bind(this, card.id)}
           />
         })}
 
