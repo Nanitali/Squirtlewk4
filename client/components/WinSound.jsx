@@ -1,11 +1,12 @@
 import React from 'react'
-import Pika from '../../server/public/audio/win.mp3'
 
 class playSound extends React.Component {
   state = {
     play: false
   }
-  audio = new Audio(this.Pika)
+
+  url = https//www.soundboard.com/sb/sound/298332
+  audio = new Audio(this.url)
 
   togglePlay = () => {
     this.setState({ play: !this.state.play }, () => {
