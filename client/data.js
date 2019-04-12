@@ -1,18 +1,16 @@
 export default [
-  {id: 1, value: '\u{1F330}', isVisible: false, info: 'chestnut'},
-  {id: 2, value: '\u{1F33D}', isVisible: false, info: 'ear of maze'},
-  {id: 3, value: '\u{1F33E}', isVisible: false, info: 'ear of rice'},
-  {id: 4, value: '\u{1F34D}', isVisible: false, info: 'pineapple'},
-  {id: 5, value: '\u{1F341}', isVisible: false, info: 'maple leaf'},
-  {id: 6, value: '\u{1F34D}', isVisible: false, info: 'pineapple'},
-  {id: 7, value: '\u{1F33F}', isVisible: false, info: 'herb'},
-  {id: 8, value: '\u{1F33D}', isVisible: false, info: 'ear of maze'},
-  {id: 9, value: '\u{1F33F}', isVisible: false, info: 'herb'},
-  {id: 10, value: '\u{1F340}', isVisible: false, info: 'four leaf clover'},
-  {id: 11, value: '\u{1F330}', isVisible: false, info: 'chestnut'},
-  {id: 12, value: '\u{1F347}', isVisible: false, info: 'grapes'},
-  {id: 13, value: '\u{1F33E}', isVisible: false, info: 'ear of rice'},
-  {id: 14, value: '\u{1F347}', isVisible: false, info: 'grapes'},
-  {id: 15, value: '\u{1F341}', isVisible: false, info: 'maple leaf'},
-  {id: 16, value: '\u{1F340}', isVisible: false, info: 'four leaf clover'}
+
+  { id: 1, value: '/images/pikachu.png', isVisible: false, info: 'pikachu' },
+  { id: 2, value: '/images/squirtle.png', isVisible: false, info: 'squirtle' },
+  { id: 3, value: '/images/charmander.png', isVisible: false, info: 'charmander' },
+  { id: 4, value: '/images/bulbasaur.png', isVisible: false, info: 'bulbasaur' },
+  { id: 5, value: '/images/charmander.png', isVisible: false, info: 'charmander' },
+  { id: 6, value: '/images/bulbasaur.png', isVisible: false, info: 'bulbasaur' },
+  { id: 7, value: '/images/jigglypuff.png', isVisible: false, info: 'jigglypuff' },
+  { id: 8, value: '/images/squirtle.png', isVisible: false, info: 'squirtle' },
+  { id: 9, value: '/images/jigglypuff.png', isVisible: false, info: 'jigglypuff' },
+  { id: 10, value: '/images/meowth.jpg', isVisible: false, info: 'meowth' },
+  { id: 11, value: '/images/pikachu.png', isVisible: false, info: 'pikachu' },
+  { id: 12, value: '/images/meowth.jpg', isVisible: false, info: 'meowth' }
+
 ]
