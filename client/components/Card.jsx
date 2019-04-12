@@ -2,8 +2,8 @@ import React from 'react'
 
 const Card = props => {
   return (
-    <div className='card'>
-      {props.value}
+    <div>
+      {props.isVisible && <img className ='card' src ={props.value}/>}
     </div>
   )
 }
