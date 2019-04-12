@@ -20,7 +20,7 @@ class App extends React.Component {
 
       <div className='game'>
         <h1>Welcome to the Memomon</h1>
-        <h2>Match all the Pokemon to win - GOTTA CATCH EM ALL!</h2>
+        <h2>Match all the Pokemon to win - GOTTA MATCH EM ALL!</h2>
 
         <Route exact path="/" component={Ball} />
         
@@ -29,7 +29,7 @@ class App extends React.Component {
         } />
 
         <h5>{hasWon && winMessage}</h5>
-        <h5>{!this.state.isMatch && tryAgain}</h5>
+        <h1>{!this.state.isMatch && tryAgain}</h1>
 
         <div className='replaybutton'>
           {hasWon && <button onClick={this.reset}>Play Again</button>}
