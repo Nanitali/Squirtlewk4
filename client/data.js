@@ -1,4 +1,5 @@
 export default [
+
   { id: 1, value: '/images/pikachu.png', isVisible: false, info: 'pikachu' },
   { id: 2, value: '/images/squirtle.png', isVisible: false, info: 'squirtle' },
   { id: 3, value: '/images/charmander.png', isVisible: false, info: 'charmander' },
@@ -11,4 +12,5 @@ export default [
   { id: 10, value: '/images/meowth.jpg', isVisible: false, info: 'meowth' },
   { id: 11, value: '/images/pikachu.png', isVisible: false, info: 'pikachu' },
   { id: 12, value: '/images/meowth.jpg', isVisible: false, info: 'meowth' }
+
 ]
