@@ -1,12 +1,12 @@
 import React from 'react'
-import Sound from 'react-sound'
+// import sound from 'react-sound'
 
-<button onClick="playSound()">Sound tester</button>
-
-const playSound = () => {
-  return (
-    
-  )
+class Sound extends React.Component {
+  render () {
+    return (
+      <button type="button">where the f is my button</button>
+    )
+  }
 }
 
 export default Sound
