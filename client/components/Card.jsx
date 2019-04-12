@@ -3,8 +3,8 @@ import React from 'react'
 const Card = props => {
   return (
 
-    <div>
-      {props.isVisible && <img className ='card' src ={props.value}/>}
+    <div className ='card' onClick={props.clicker}>
+      {props.isVisible && props.value}
 
     </div>
   )
