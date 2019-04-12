@@ -5,7 +5,7 @@ import Board from './Board'
 import data from '../data'
 import Ball from './Ball'
 
-const tryAgain = 'YOU LOSE'
+const tryAgain = 'Work in progress....'
 const winMessage = 'Pika Pika Winner!'
 
 class App extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Pika from '../../server/public/audio/win.mp3'
+
 
 class playSound extends React.Component {
   state = {

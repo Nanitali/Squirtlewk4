@@ -1,17 +1,10 @@
 import React from 'react'
-
 import Card from './Card'
 
 class Board extends React.Component {
   state = {
     cards: this.props.cards
   }
-
-
-
-
-
-
 
   clicker = (id) => {
     return () => {
@@ -28,12 +21,9 @@ class Board extends React.Component {
     }
   }
 
-// if card1 = card 2 then
-// card 1 and card 2 are visible
-// else card 1 and 2 arent visible
-
-
-
+  // if card1 = card 2 then
+  // card 1 and card 2 are visible
+  // else card 1 and 2 arent visible
 
   render () {
     return (
